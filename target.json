@@ -1,0 +1,12 @@
+{
+  "web": {
+    "baseUrl": "http://region.rsoo.ru/"
+
+  },
+    "webadmin": {
+    "baseUrl": "http://region.rsoo.ru/",
+    "username": "admin@rsso.ru",
+    "password": "bigthree3"
+  }
+
+}
