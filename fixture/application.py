@@ -2,6 +2,7 @@
 __author__ = 'Irsen'
 from selenium import webdriver
 from fixture.session import SessionHelper
+from fixture.platform_helper import PlatformHelper
 
 class Application:
 
@@ -17,6 +18,7 @@ class Application:
         # дополнительное ожидание необходимо в случае динамического обновления страницы
         # self.wd.implicitly_wait(5)
         self.session = SessionHelper(self)
+        self.platform_helper = PlatformHelper(self)
         self.base_url = base_url
 
     def is_valid(self):
