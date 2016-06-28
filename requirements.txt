@@ -1,4 +1,5 @@
 pytest
 selenium
 jsonpickle
+lxml-3.6.0-cp35-cp35m-win32.whl
 pytest-allure-adaptor
